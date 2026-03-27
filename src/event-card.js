@@ -32,7 +32,30 @@ export class EventCard extends LitElement {
         </section>
 `
     }
-    static get styles() { }
+    static get styles() {
+        return css`
+        :host {
+        
+        display: block;
+        max-width: 360px;
+        padding: 40px 30px;
+
+        background: var(--semi-yellow);
+        color: var(--primary-dark);
+
+        border: 1px solid var(--yellow);
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+
+        overflow: hidden;
+
+        }
+
+        .card-image {
+        width: 100%;
+        object-fit: cover;}
+        `
+    }
 }
 
 window.customElements.define('event-card', EventCard)
