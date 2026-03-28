@@ -15,13 +15,13 @@
         "link": "https://luma.com/arcasilesgroup?period=past",
         "description": "Un Workshop práctico para mostrar el primer proyecto Open Source de Arcasiles."
     },
-    {
+        {
         "image": "./src/assets/cartel_Batalla_IAS.jpg",
         "title": "La Batalla de las IAS",
         "date": "23-04-2026",
         "venue": "ERNI",
         "link": "https://luma.com/arcasilesgroup?period=past",
-        "description": "El gran evento de las batallas de las IAS"
+        "description": "El gran evento de las batallas de las IAS. Un evento donde tres expertos en IA compararán sus modelos y sus resultados."
     },
     {
         "image": "./src/assets/cartel_Alcachofa_Laboral.jpg",
@@ -30,6 +30,14 @@
         "venue": "Celonis",
         "link": "https://luma.com/arcasilesgroup?period=past&e=evt-AboyTTYkUU1PG6H",
         "description": "​Un evento para quienes buscan conectar con su carrera ideal. Entre San Valentín y carnaval, febrero es el mes perfecto para hablar de compatibilidad. Pero no solo en el amor: también en el trabajo."
+    },
+    {
+        "image": "./src/assets/cartel_fintech.jpg",
+        "title": "Fintech CONF 2026",
+        "date": "28-01-2026",
+        "venue": "Celonis",
+        "link": "https://luma.com/arcasilesgroup?period=past&e=evt-AboyTTYkUU1PG6H",
+        "description": "​Fintech CONF 2026 es un encuentro presencial en Madrid para hablar de cómo está cambiando el sector financiero desde dentro: ingeniería, diseño y agentes de IA aplicados a producto, operaciones y equipos."
     },
     {
         "image": "./src/assets/Cartel_XMAS_Edition.jpg",

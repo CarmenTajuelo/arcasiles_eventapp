@@ -57,7 +57,11 @@ export class EventCard extends LitElement {
 
         .card-image {
         width: 100%;
-        object-fit: cover;}
+        height: 200px;
+        object-fit: cover;
+        border-radius: 20px;
+        
+        }
         `
     }
 }
