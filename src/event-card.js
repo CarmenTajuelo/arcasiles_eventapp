@@ -27,7 +27,7 @@ export class EventCard extends LitElement {
             <h2 class="card-title">${this.title}</h2>
             <h3 class="card-date">${this.date}</h3>
             <h3 class="card-venue">${this.venue}</h3>
-            <a href=${this.link} target="_blank" class="card-link"> Link to Register</a>
+            <a href=${this.link} target="_blank" class="card-link">Enlace para registrarse</a>
             <p class="card-description">${this.description}</p>
         </section>
 `

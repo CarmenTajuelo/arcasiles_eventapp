@@ -1,0 +1,34 @@
+[
+    {
+        "image": "", 
+		"title": "IA Engineering - Arcasiles Open Code", 
+		"date":"20-05-2026", 
+		"venue":"Celonis",
+		"link":"",
+		"description":"Un Workshop práctico para mostrar el primer proyecto Open Source de Arcasiles."
+    },
+	    {
+        "image": "", 
+		"title": "La Batalla de las IAS", 
+		"date":"23-04-2026", 
+		"venue":"ERNI",
+		"link":"El gran evento de las batallas de las IAS",
+		"description":""
+    },
+	    {
+        "image": "", 
+		"title": "Tu media alcachofa laboral", 
+		"date":"25-02-2026", 
+		"venue":"Celonis",
+		"link":"",
+		"description":"​Un evento para quienes buscan conectar con su carrera ideal. Entre San Valentín y carnaval, febrero es el mes perfecto para hablar de compatibilidad. Pero no solo en el amor: también en el trabajo."
+    },
+	    {
+        "image": "", 
+		"title": "ARCASILES XMAS EDITION", 
+		"date":"16-12-2025", 
+		"venue":"Level Bar",
+		"link":"https://entradium.com/events/arcasiles-xmas-edition",
+		"description":"​El encuentro de cierre de año de la comunidad tech-creativa de Madrid. Cerramos 2025 reuniendo a las mejores comunidades de Madrid en una noche diseñada para conectar, celebrar y proyectar lo que viene."
+    }
+]
