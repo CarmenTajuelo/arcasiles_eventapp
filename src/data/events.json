@@ -1,30 +1,38 @@
 [
     {
-        "image": "",
+        "image": "./src/assets/cartel_Summer_Vibes.jpg",
+        "title": "Arcasiles - Summer Edition",
+        "date": "03-06-2026",
+        "venue": "Copa Cabana",
+        "link": "https://luma.com/arcasilesgroup?period=past",
+        "description": "Un evento para dar la bienvenida al verano y reunir a la comunidad antes de las vacaciones estivales."
+    },
+    {
+        "image": "./src/assets/cartel_IA_Engineering.jpg",
         "title": "IA Engineering - Arcasiles Open Code",
         "date": "20-05-2026",
         "venue": "Celonis",
-        "link": "",
+        "link": "https://luma.com/arcasilesgroup?period=past",
         "description": "Un Workshop práctico para mostrar el primer proyecto Open Source de Arcasiles."
     },
     {
-        "image": "",
+        "image": "./src/assets/cartel_Batalla_IAS.jpg",
         "title": "La Batalla de las IAS",
         "date": "23-04-2026",
         "venue": "ERNI",
-        "link": "El gran evento de las batallas de las IAS",
-        "description": ""
+        "link": "https://luma.com/arcasilesgroup?period=past",
+        "description": "El gran evento de las batallas de las IAS"
     },
     {
-        "image": "",
+        "image": "./src/assets/cartel_Alcachofa_Laboral.jpg",
         "title": "Tu media alcachofa laboral",
         "date": "25-02-2026",
         "venue": "Celonis",
-        "link": "",
+        "link": "https://luma.com/arcasilesgroup?period=past&e=evt-AboyTTYkUU1PG6H",
         "description": "​Un evento para quienes buscan conectar con su carrera ideal. Entre San Valentín y carnaval, febrero es el mes perfecto para hablar de compatibilidad. Pero no solo en el amor: también en el trabajo."
     },
     {
-        "image": "",
+        "image": "./src/assets/Cartel_XMAS_Edition.jpg",
         "title": "ARCASILES XMAS EDITION",
         "date": "16-12-2025",
         "venue": "Level Bar",
