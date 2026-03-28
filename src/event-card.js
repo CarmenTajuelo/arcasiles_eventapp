@@ -35,10 +35,14 @@ export class EventCard extends LitElement {
     static get styles() {
         return css`
         :host {
+        *{box-sizing: border-box;}
         
-        display: block;
+        display: flex;
+
         max-width: 360px;
+        min-width: 30%;
         padding: 40px 30px;
+        flex: 1;
 
         background: var(--semi-yellow);
         color: var(--primary-dark);

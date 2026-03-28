@@ -22,8 +22,14 @@ export class EventList extends LitElement {
     static get styles() {
         return css`
         :host{
-        display: block;
-        
+        *{box-sizing: border-box;}
+        }
+        .event-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+
+        justify-content: center;
         }
         `
     }
