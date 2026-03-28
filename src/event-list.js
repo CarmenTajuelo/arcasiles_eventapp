@@ -1,6 +1,6 @@
 import { LitElement, html, css } from 'lit';
-import events from '../data/events.json';
-
+import events from './data/events.json';
+import './event-card';
 
 export class EventList extends LitElement {
     render() {
