@@ -24,44 +24,86 @@ export class EventCard extends LitElement {
         return html`
         <section class="card">
             <img class="card-image" src=${this.image} alt="" >
+            <div class="card-content">
             <h2 class="card-title">${this.title}</h2>
             <h3 class="card-date">${this.date}</h3>
             <h3 class="card-venue">${this.venue}</h3>
             <a href=${this.link} target="_blank" class="card-link">Enlace para registrarse</a>
             <p class="card-description">${this.description}</p>
+            </div>
         </section>
 `
     }
     static get styles() {
         return css`
-        :host {
-        *{box-sizing: border-box;}
-        
-        display: flex;
+       :host {
+  * { box-sizing: border-box; }
+  
+  display: flex;
+  flex-direction: column;
 
-        max-width: 360px;
-        min-width: 30%;
-        padding: 40px 30px;
-        flex: 1;
+  min-width: 30%;
+  max-width: 360px;
+  flex: 1;
 
-        background: var(--semi-yellow);
-        color: var(--primary-dark);
+  background: var(--white);
+  color: var(--primary-dark);
 
-        border: 1px solid var(--yellow);
-        border-radius: 20px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--gray);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  
+  padding: 0;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
-        overflow: hidden;
+:host(:hover) {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
 
-        }
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
 
-        .card-image {
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 20px;
-        
-        }
+.card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.card-date, .card-venue {
+  font-size: 0.85rem;
+  margin: 0;
+  color: var(--dark-gray);
+}
+
+.card-link {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 8px 16px;
+  background: var(--yellow);
+  color: var(--primary-dark);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+.card-description {
+  font-size: 0.85rem;
+  color: var(--dark-gray);
+  margin: 0;
+}
         `
     }
 }
