@@ -33,14 +33,14 @@
         color: #b7950b;
         border: 1px solid #f9be4a;
         }
-        `}};window.customElements.define(`badge-status`,me);var he=class extends Q{static get properties(){return{image:{type:String},title:{type:String},date:{type:String},venue:{type:String},link:{type:String},description:{type:String}}}constructor(){super(),this.image=``,this.title=``,this.date=``,this.venue=``,this.link=``,this.description=``}render(){return V`
+        `}};window.customElements.define(`badge-status`,me);var he=class extends Q{static get properties(){return{image:{type:String},title:{type:String},date:{type:String},venue:{type:String},link:{type:String},description:{type:String}}}constructor(){super(),this.image=``,this.title=``,this.date=``,this.venue=``,this.link=``,this.description=``}render(){let e=new Date(this.date).toLocaleDateString(`es-ES`,{day:`numeric`,month:`long`,year:`numeric`});return V`
         <section class="card">
             
             <img class="card-image" src=${this.image} alt="" >
             <badge-status date=${this.date}></badge-status>
             <div class="card-content">
             <h2 class="card-title">${this.title}</h2>
-            <h3 class="card-date">${this.date}</h3>
+            <h3 class="card-date">${e}</h3>
             <h3 class="card-venue">${this.venue}</h3>
             <a href=${this.link} target="_blank" class="card-link">Enlace para registrarse</a>
             <p class="card-description">${this.description}</p>
