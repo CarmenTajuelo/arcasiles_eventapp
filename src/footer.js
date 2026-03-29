@@ -9,7 +9,7 @@ export class Footer extends LitElement {
             <footer class="footer">
                 <img src="${logo}" alt="logo arcasiles" class="logo">
                 <div class="socials">
-                    <img src="${instagramIcon}}" alt="logo arcasiles" class="icono-social">
+                    <img src="${instagramIcon}" alt="logo arcasiles" class="icono-social">
                     <img src="${linkedinIcon}" alt="logo arcasiles" class="icono-social">
                 </div>
                 <p>© Arcasiles Group. All Rights Reserved. Licensing</p>
