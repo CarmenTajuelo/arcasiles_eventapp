@@ -1,6 +1,6 @@
 [
     {
-        "image": "./src/assets/cartel_Summer_Vibes.jpg",
+        "image": "https://res.cloudinary.com/djbnr1n5p/image/upload/v1774788257/cartel_Summer_Vibes_zu9lll.jpg",
         "title": "Arcasiles - Summer Edition",
         "date": "03-06-2026",
         "venue": "Copa Cabana",
@@ -8,7 +8,7 @@
         "description": "Un evento para dar la bienvenida al verano y reunir a la comunidad antes de las vacaciones estivales."
     },
     {
-        "image": "./src/assets/cartel_IA_Engineering.jpg",
+        "image": "https://res.cloudinary.com/djbnr1n5p/image/upload/v1774788256/cartel_IA_Engineering_wfhimu.jpg",
         "title": "IA Engineering - Arcasiles Open Code",
         "date": "20-05-2026",
         "venue": "Celonis",
@@ -16,7 +16,7 @@
         "description": "Un Workshop práctico para mostrar el primer proyecto Open Source de Arcasiles."
     },
         {
-        "image": "./src/assets/cartel_Batalla_IAS.jpg",
+        "image": "https://res.cloudinary.com/djbnr1n5p/image/upload/v1774788257/cartel_Batalla_IAS_jjj9za.jpg",
         "title": "La Batalla de las IAS",
         "date": "23-04-2026",
         "venue": "ERNI",
@@ -24,7 +24,7 @@
         "description": "El gran evento de las batallas de las IAS. Un evento donde tres expertos en IA compararán sus modelos y sus resultados."
     },
     {
-        "image": "./src/assets/cartel_Alcachofa_Laboral.jpg",
+        "image": "https://res.cloudinary.com/djbnr1n5p/image/upload/v1774788256/cartel_Alcachofa_Laboral_wwqve0.jpg",
         "title": "Tu media alcachofa laboral",
         "date": "25-02-2026",
         "venue": "Celonis",
@@ -32,7 +32,7 @@
         "description": "​Un evento para quienes buscan conectar con su carrera ideal. Entre San Valentín y carnaval, febrero es el mes perfecto para hablar de compatibilidad. Pero no solo en el amor: también en el trabajo."
     },
     {
-        "image": "./src/assets/cartel_fintech.jpg",
+        "image": "https://res.cloudinary.com/djbnr1n5p/image/upload/v1774788256/cartel_fintech_usgfqw.jpg",
         "title": "Fintech CONF 2026",
         "date": "28-01-2026",
         "venue": "Celonis",

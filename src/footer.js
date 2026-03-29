@@ -5,10 +5,10 @@ export class Footer extends LitElement {
     render() {
         return html`
             <footer class="footer">
-                <img src="./src/assets/logo-arcasiles.png" alt="logo arcasiles" class="logo">
+                <img src="https://res.cloudinary.com/djbnr1n5p/image/upload/v1774788256/logo-arcasiles_qmyar0.png" alt="logo arcasiles" class="logo">
                 <div class="socials">
-                    <img src="./src/assets/icono-instagram.png" alt="logo arcasiles" class="icono-social">
-                    <img src="./src/assets/icono-linkedin.png" alt="logo arcasiles" class="icono-social">
+                    <img src="https://res.cloudinary.com/djbnr1n5p/image/upload/v1774788257/icono-instagram_qftpkh.png" alt="logo arcasiles" class="icono-social">
+                    <img src="https://res.cloudinary.com/djbnr1n5p/image/upload/v1774788256/icono-linkedin_vy5l3k.png" alt="logo arcasiles" class="icono-social">
                 </div>
                 <p>© Arcasiles Group. All Rights Reserved. Licensing</p>
                 
