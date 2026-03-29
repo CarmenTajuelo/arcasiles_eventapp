@@ -162,7 +162,7 @@
             <footer class="footer">
                 <img src="${$}" alt="logo arcasiles" class="logo">
                 <div class="socials">
-                    <img src="${_e}}" alt="logo arcasiles" class="icono-social">
+                    <img src="${_e}" alt="logo arcasiles" class="icono-social">
                     <img src="${ve}" alt="logo arcasiles" class="icono-social">
                 </div>
                 <p>© Arcasiles Group. All Rights Reserved. Licensing</p>
