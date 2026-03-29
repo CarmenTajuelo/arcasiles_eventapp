@@ -64,10 +64,14 @@ npm install
 
 # Run the dev server
 npm run dev
+
+# Open http://localhost:5173/ in your browser
+http://localhost:5173/
+
+# Have fun
+🎉
+
 ```
-
-Then open http://localhost:5173/ and have fun 🎉
-
 ---
 
 ## Author
