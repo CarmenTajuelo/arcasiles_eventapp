@@ -24,12 +24,14 @@ export class EventList extends LitElement {
         :host{
         *{box-sizing: border-box;}
         }
-        .event-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-
-        justify-content: center;
+       .event-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 40px;
         }
         `
     }
