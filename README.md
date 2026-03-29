@@ -2,6 +2,8 @@
 
 > A live event hub for Arcasiles Group, built with Lit and Web Components to explore modern frontend architectures beyond React.
 
+🌐 **Live demo**: https://carmentajuelo.github.io/arcasiles_eventapp/
+
 ![Web Components](https://img.shields.io/badge/Web_Components-native-blue)
 ![Lit](https://img.shields.io/badge/Lit-3.0-purple)
 ![Vite](https://img.shields.io/badge/Vite-6.0-yellow)
