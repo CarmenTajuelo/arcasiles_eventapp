@@ -1,11 +1,12 @@
 import { LitElement, html, css } from 'lit';
+import logo from './assets/logo-arcasiles.png'
 
 
 export class Navbar extends LitElement {
     render() {
         return html`
             <nav class="nav-bar">
-                <img src="https://res.cloudinary.com/djbnr1n5p/image/upload/v1774788256/logo-arcasiles_qmyar0.png" alt="logo arcasiles" class="logo">
+                <img src="${logo}" alt="logo arcasiles" class="logo">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#agenda">Agenda</a></li>

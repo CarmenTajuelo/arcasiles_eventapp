@@ -1,14 +1,16 @@
 import { LitElement, html, css } from 'lit';
-
+import logo from './assets/logo-arcasiles.png'
+import instagramIcon from './assets/icono-instagram.png'
+import linkedinIcon from './assets/icono-linkedin.png'
 
 export class Footer extends LitElement {
     render() {
         return html`
             <footer class="footer">
-                <img src="https://res.cloudinary.com/djbnr1n5p/image/upload/v1774788256/logo-arcasiles_qmyar0.png" alt="logo arcasiles" class="logo">
+                <img src="${logo}" alt="logo arcasiles" class="logo">
                 <div class="socials">
-                    <img src="https://res.cloudinary.com/djbnr1n5p/image/upload/v1774788257/icono-instagram_qftpkh.png" alt="logo arcasiles" class="icono-social">
-                    <img src="https://res.cloudinary.com/djbnr1n5p/image/upload/v1774788256/icono-linkedin_vy5l3k.png" alt="logo arcasiles" class="icono-social">
+                    <img src="${instagramIcon}}" alt="logo arcasiles" class="icono-social">
+                    <img src="${linkedinIcon}" alt="logo arcasiles" class="icono-social">
                 </div>
                 <p>© Arcasiles Group. All Rights Reserved. Licensing</p>
                 
