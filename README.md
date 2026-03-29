@@ -7,6 +7,7 @@
 ![Web Components](https://img.shields.io/badge/Web_Components-native-blue)
 ![Lit](https://img.shields.io/badge/Lit-3.0-purple)
 ![Vite](https://img.shields.io/badge/Vite-6.0-yellow)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-CDN-blue)
 
 ---
 
@@ -24,6 +25,7 @@ Arcasiles Event Hub is a webapp with a live agenda for Arcasiles Community Event
 | Vite | Dev server and build tool |
 | Lit | Library for building Web Components |
 | Web Components | Browser-native standard for reusable custom HTML elements |
+| Cloudinary | CDN for serving event images |
 
 ---
 
@@ -50,6 +52,7 @@ index.html
 | `event-list` | Reads events from JSON and renders one card per event |
 | `nav-bar` | Main navigation with logo and links |
 | `arc-footer` | Footer with logo, social icons and copyright |
+| `badge-status` | Shows event status: upcoming, today or past — calculated from the event date |
 
 ---
 
