@@ -1,5 +1,5 @@
 import { LitElement, html, css } from "lit";
-import './badge';
+import './badge-status';
 
 
 export class EventCard extends LitElement {
@@ -23,6 +23,12 @@ export class EventCard extends LitElement {
         this.description = ""
     }
     render() {
+        const formattedDate = new Date(this.date).toLocaleDateString('es-ES', { 
+            day: 'numeric', 
+            month: 'long', 
+            year: 'numeric' 
+        })
+
         return html`
         <section class="card">
             
@@ -30,7 +36,7 @@ export class EventCard extends LitElement {
             <badge-status date=${this.date}></badge-status>
             <div class="card-content">
             <h2 class="card-title">${this.title}</h2>
-            <h3 class="card-date">${this.date}</h3>
+            <h3 class="card-date">${formattedDate}</h3>
             <h3 class="card-venue">${this.venue}</h3>
             <a href=${this.link} target="_blank" class="card-link">Enlace para registrarse</a>
             <p class="card-description">${this.description}</p>
