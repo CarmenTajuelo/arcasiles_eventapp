@@ -40,7 +40,7 @@
         "description": "​Fintech CONF 2026 es un encuentro presencial en Madrid para hablar de cómo está cambiando el sector financiero desde dentro: ingeniería, diseño y agentes de IA aplicados a producto, operaciones y equipos."
     },
     {
-        "image": "./src/assets/Cartel_XMAS_Edition.jpg",
+        "image": "https://res.cloudinary.com/djbnr1n5p/image/upload/v1774788257/cartel_XMAS_Edition_fe5j1w.jpg",
         "title": "ARCASILES XMAS EDITION",
         "date": "16-12-2025",
         "venue": "Level Bar",
